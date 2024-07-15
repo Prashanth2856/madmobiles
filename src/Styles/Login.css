@@ -1,0 +1,10 @@
+.btn-login {
+  background-color: #ea5031;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+}
+
+.btn-login:hover {
+  color: #fff;
+}

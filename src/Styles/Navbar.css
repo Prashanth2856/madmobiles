@@ -1,0 +1,27 @@
+.navbar {
+  padding: 0;
+}
+
+.nav-link {
+  color: #ea5031;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #ea5031;
+}
+
+.navbar-brand img {
+  height: 50px;
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .nav-link {
+    margin-left: 10px;
+  }
+  .nav-container {
+    padding: 0 10px !important;
+  }
+}

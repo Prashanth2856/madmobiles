@@ -1,0 +1,30 @@
+.animation-container {
+  position: relative;
+  width: 200px;
+  height: 100px;
+  margin: 20px auto;
+}
+
+.truck-container {
+  position: absolute;
+  top: 50%;
+  left: -100px;
+  animation: moveTruck 5s linear infinite;
+}
+
+.truck {
+  width: 100px;
+  height: 50px;
+  /* background-image: url("path-to-your-truck-image.png"); */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@keyframes moveTruck {
+  0% {
+    left: -100px;
+  }
+  100% {
+    left: 100%;
+  }
+}
